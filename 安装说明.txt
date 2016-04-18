@@ -1,0 +1,14 @@
+yum install php70w-devel.x86_64
+yum install php70w-pear
+yum install php70w.x86_64 php70w-cli.x86_64 php70w-common.x86_64 php70w-gd.x86_64 php70w-ldap.x86_64 php70w-mbstring.x86_64 php70w-mcrypt.x86_64 php70w-mysql.x86_64 php70w-pdo.x86_64
+yum install php70w
+
+redis°²×°:
+wget -c https://github.com/swoole/swoole-src/archive/swoole-1.7.21-stable.tar.gz
+tar zxvf swoole-1.7.21-stable.tar.gz
+cd swoole-src-swoole-1.7.21-stable/
+/usr/local/php7/bin/phpize
+./configure --with-php-config=/usr/local/php7/bin/php-config
+make
+make install
+cd ..

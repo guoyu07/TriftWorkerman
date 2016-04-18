@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RegistSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="800" height="480" >
+	<e:Button id="regist_btn" width="367" label="注册" enabled="true"  horizontalCenter="0.5" verticalCenter="110"/>
+	<e:Label text="用户名："  horizontalCenter="-147" verticalCenter="-52"/>
+	<e:Label text="密   码："  horizontalCenter="-150" verticalCenter="-8"/>
+	<e:TextInput id="user_name_ti" width="248"  horizontalCenter="78" verticalCenter="-58"/>
+	<e:TextInput id="user_passwords_ti" width="248"  horizontalCenter="78" verticalCenter="-5"/>
+	<e:Label verticalAlign="justify" width="398" y="283" text="  " textAlign="center" size="30" id="result_l" />
+	<e:Button id="return_btn" label="返回" top="0" left="0"/>
+</e:Skin>

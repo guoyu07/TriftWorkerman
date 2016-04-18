@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="IdleSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="mine_head_img" height="79" width="79" x="256" y="149"/>
+	<e:Image id="target_head_img" width="79" height="79" x="459" y="149"/>
+	<e:Label id="mine_name_l" text="未准备" textAlign="center" verticalCenter="15" horizontalCenter="-101"/>
+	<e:Label id="target_name_l" text="未准备" textAlign="center" horizontalCenter="103" verticalCenter="15"/>
+	<e:Button id="match_btn" label="开始匹配" horizontalCenter="14" bottom="112"/>
+</e:Skin>
