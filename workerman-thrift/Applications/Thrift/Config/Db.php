@@ -11,10 +11,10 @@ class Db
      * @var array
      */
     public static $db1 = array(
-        'host'    => 'rdsl3k9k6dupjp92n31b.mysql.rds.aliyuncs.com',
+        'host'    => '***',
         'port'    => 3306,
-        'user'    => 'youwo',
-        'password' => 'youwo197197',
+        'user'    => '***',
+        'password' => '***',
         'dbname'  => 'thrift',
         'charset'    => 'utf8',
     );
